@@ -1,0 +1,10 @@
+class student:
+    name = "KPRIT"
+    age = 15
+class demo (student):
+    branch = "AIML"
+d1 = demo()
+print(d1.name)
+print(d1.age)
+print(d1.branch)
+
