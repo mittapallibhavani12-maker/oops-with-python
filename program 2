@@ -1,0 +1,13 @@
+class Employee:
+    def work(self):
+        print("Employee works")
+class Manager:
+    def manage(self):
+        print("Manager manages")
+class Developer(Employee,Manager):
+    def code(self):
+        print("developer codes")
+c=Developer()
+c.work()
+c.manage()
+c.code()
