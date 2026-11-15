@@ -1,0 +1,16 @@
+class upi:
+   def withdrawl(self):
+       print("you received money")
+class credit_card:
+    def withdrawl(self):
+        print("cash withdraw through credit card")
+class netbankig:
+      def withdrawl(self):
+          print("withdraw done")
+
+  def cash(money):
+      money.withdrawl()
+
+cash(upi())
+cash(credit_card())
+cash(netbanking())
