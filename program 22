@@ -1,0 +1,9 @@
+class Dog:
+   name = "sheero"
+     def Set(self,name):
+       self.name=name
+
+d = Dog()
+print(d.name)
+d.set("leo")
+print(d.name)
