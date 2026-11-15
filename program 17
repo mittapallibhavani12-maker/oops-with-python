@@ -1,0 +1,15 @@
+class student:
+    def study(self):
+        print("student is reading")
+class collegestuent(student):
+     def study(self):
+     print("college student is reading")
+class schoolstudent(student):
+      def study(self):
+          print("school student is reading")
+      def show_study(student):
+           student.study()
+  s1=collegestudent()
+  s2=schoolstudent()
+  show_study(s1)
+  show_study(s2)
